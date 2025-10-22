@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="white"> 
+<p align="center">
+<table border="0" cellpadding="20" bgcolor="cyan">
+<td align="center">
+<h2>Student Registration Form</h2>
+<form action="welcome.html" method="get" target="_blank">
+<table bgcolor="pink" align="center" cellpadding="8" cellspacing="5" border="0">
+<tr>
+<td>Roll Number:</td>
+<td><input type="text" name="roll" maxlength="10" required></td>
+</tr>
+<tr>
+<td>Student Name:</td>
+<td>
+<input type="text" name="fname" placeholder="First name" required>
+<input type="text" name="lname" placeholder="Last name" required>
+</td>
+</tr>
+<tr>
+<td>Date of Birth:</td>
+<td><input type="date" name="dob" required></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="pass" maxlength="12" required></td>
+</tr>
+<tr>
+<td>Confirm Password:</td>
+<td><input type="password" name="cpass" maxlength="12" required></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" placeholder="example@gmail.com" required></td></tr><tr>
+<td>Phone Number:</td>
+<td><input type="tel" name="phone" maxlength="10" required></td>
+</tr>
+<tr>
+ <td>Department:</td>
+<td>
+<input type="radio" name="dept" value="CSE"> CSE
+<input type="radio" name="dept" value="ECE"> ECE
+<input type="radio" name="dept" value="EEE"> EEE
+</td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+</td>
+</tr>
+<tr>
+<td>Course:</td><td>
+<select name="course">
+<option>--Select Current Course--</option>
+<option>B.Tech</option>
+<option>B.Sc</option>
+<option>BCA</option>
+<option>M.Tech</option>
+<option>MCA</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Upload Photo:</td>
+<td><input type="file" name="photo"></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><input type="text" name="city" required></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea rows="4" cols="30" name="address" placeholder="Enter Address Here..."></textarea></td>
+</tr>
+<tr>
+<td align="center">
+<input type="submit" value="Submit"></td>
+<td align="center">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
