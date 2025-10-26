@@ -1,0 +1,103 @@
+/* Basic reset and font setup */
+body {
+  background-color: #f8fbff;
+  color: #03396c;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container box */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px lightgray;
+}
+
+/* Headings */
+h1 {
+  color: #005b96;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #03396c;
+  margin-bottom: 10px;
+}
+
+/* List styling */
+ul {
+  text-align: left;
+  color: #011f4b;
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Buttons and links */
+button, a {
+  background-color: #005b96;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  display: inline-block;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover, a:hover {
+  background-color: #03396c;
+}
+
+/* Form styling */
+form {
+  text-align: left;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #03396c;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #b3cde0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Quiz question boxes */
+.Questions {
+  background-color: #f1f7ff;
+  padding: 10px;
+  border: 1px solid #d0e1f9;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.Questions p {
+  font-weight: bold;
+}
+
+/* Thank You page name */
+#userName {
+  color: #005b96;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
